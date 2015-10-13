@@ -6,7 +6,7 @@
     "container": {
         "type": "DOCKER",
         "docker": {
-            "image": "registry.marathon.mesos:31111/nginx-jm:latest",
+            "image": "docker-pilot.dsc.umich.edu:31111/nginx-jm:latest",
             "network": "BRIDGE",
             "portMappings": [
                 {
